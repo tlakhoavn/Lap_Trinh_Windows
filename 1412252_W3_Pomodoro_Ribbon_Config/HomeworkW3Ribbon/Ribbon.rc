@@ -1,0 +1,121 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\RibbonIDs.h"
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_TAB_MAIN_LabelTitle_RESID L"Main" /* LabelTitle ID_CMD_TAB_MAIN_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_GROUP_EXIT_LabelTitle_RESID L"" /* LabelTitle ID_CMD_GROUP_EXIT_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_EXIT_LabelTitle_RESID L"Exit application" /* LabelTitle ID_BTN_EXIT_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_EXIT_LabelDescription_RESID L"Exit Description" /* LabelDescription ID_BTN_EXIT_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_EXIT_TooltipTitle_RESID L"Exit (Ctrl+X)" /* TooltipTitle ID_BTN_EXIT_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_EXIT_TooltipDescription_RESID L"Exit application." /* TooltipDescription ID_BTN_EXIT_TooltipDescription_RESID: (null) */
+END
+
+ID_BTN_EXIT_SmallImages_RESID    IMAGE    "Images\\Exit-sm.png" /* SmallImages ID_BTN_EXIT_SmallImages_RESID: (null) */
+ID_BTN_EXIT_LargeImages_RESID    IMAGE    "Images\\Exit-lg.png" /* LargeImages ID_BTN_EXIT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_GROUP_START_LabelTitle_RESID L"" /* LabelTitle ID_CMD_GROUP_START_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_START_LabelTitle_RESID L"Start Pomorodo" /* LabelTitle ID_BTN_START_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_START_SmallImages_RESID    IMAGE    "Images\\Start-sm.png" /* SmallImages ID_BTN_START_SmallImages_RESID: (null) */
+ID_BTN_START_LargeImages_RESID    IMAGE    "Images\\Start-lg.png" /* LargeImages ID_BTN_START_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_GROUP_ABANDON_LabelTitle_RESID L"" /* LabelTitle ID_CMD_GROUP_ABANDON_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_ABANDON_LabelTitle_RESID L"Abandon Pomorodo" /* LabelTitle ID_BTN_ABANDON_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_ABANDON_SmallImages_RESID    IMAGE    "Images\\Abandon-sm.png" /* SmallImages ID_BTN_ABANDON_SmallImages_RESID: (null) */
+ID_BTN_ABANDON_LargeImages_RESID    IMAGE    "Images\\Abandon-lg.png" /* LargeImages ID_BTN_ABANDON_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_GROUP_BREAKTIME_LabelTitle_RESID L"" /* LabelTitle ID_CMD_GROUP_BREAKTIME_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_DDG_ShortBreak_LabelTitle_RESID L"Short Break Duration" /* LabelTitle ID_DDG_ShortBreak_LabelTitle_RESID: (null) */
+END
+
+ID_DDG_ShortBreak_SmallImages_RESID    IMAGE    "Images\\Break-st.png" /* SmallImages ID_DDG_ShortBreak_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDS_SBREAK_1_LabelTitle_RESID L"3 Minutes" /* LabelTitle IDS_SBREAK_1_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SBREAK_2_LabelTitle_RESID L"4 Minutes" /* LabelTitle IDS_SBREAK_2_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SBREAK_3_LabelTitle_RESID L"5 Minutes" /* LabelTitle IDS_SBREAK_3_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_DDG_LongBreak_LabelTitle_RESID L"Long Break Duration" /* LabelTitle ID_DDG_LongBreak_LabelTitle_RESID: (null) */
+END
+
+ID_DDG_LongBreak_SmallImages_RESID    IMAGE    "Images\\Break-lg.png" /* SmallImages ID_DDG_LongBreak_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDS_LBREAK_1_LabelTitle_RESID L"10 Minutes" /* LabelTitle IDS_LBREAK_1_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LBREAK_2_LabelTitle_RESID L"15 Minutes" /* LabelTitle IDS_LBREAK_2_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LBREAK_3_LabelTitle_RESID L"20 Minutes" /* LabelTitle IDS_LBREAK_3_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LBREAK_4_LabelTitle_RESID L"25 Minutes" /* LabelTitle IDS_LBREAK_4_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    InternalCmd2_LabelTitle_RESID L"Label:InternalCmd2" /* LabelTitle InternalCmd2_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "E:\\WINDOW\\HomeworkW3Ribbon\\HomeworkW3Ribbon\\\\Ribbon.bml"

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://schemas.microsoft.com/windows/2009/Ribbon">
+  <Application.Commands>
+    <Command Name="cmdTabMain"
+             Symbol="ID_CMD_TAB_MAIN"
+             LabelTitle="Main">
+    </Command>
+
+    <Command Name="cmdGroupExit"
+             Symbol="ID_CMD_GROUP_EXIT"
+             LabelTitle="">
+    </Command>
+    
+    <Command Name="cmdExit" 
+             Symbol="ID_BTN_EXIT" 
+             LabelTitle="Exit application"
+             LabelDescription="Exit Description"
+             TooltipTitle="Exit (Ctrl+X)"
+             TooltipDescription="Exit application.">
+      <Command.SmallImages>
+        <Image Source="Images/Exit-sm.png"/>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image Source="Images/Exit-lg.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdGroupStart"
+             Symbol="ID_CMD_GROUP_START"
+             LabelTitle="">
+    </Command>
+    
+    <Command Name="cmdStart" Symbol="ID_BTN_START" LabelTitle="Start Pomorodo">
+      <Command.SmallImages>
+        <Image Source="Images/Start-sm.png"/>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image Source="Images/Start-lg.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdGroupAbandon"
+             Symbol="ID_CMD_GROUP_ABANDON"
+             LabelTitle="">
+    </Command>
+
+    <Command Name="cmdAbandon" Symbol="ID_BTN_ABANDON" LabelTitle="Abandon Pomorodo">
+      <Command.SmallImages>
+        <Image Source="Images/Abandon-sm.png"/>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image Source="Images/Abandon-lg.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdBreaktimeSetting"
+             Symbol="ID_CMD_GROUP_BREAKTIME"
+             LabelTitle="">
+    </Command>
+    
+    <Command Name="cmdShortBreak" Symbol="ID_DDG_ShortBreak" LabelTitle="Short Break Duration">
+      <Command.SmallImages>
+        <Image Source="Images/Break-st.png"/>
+     </Command.SmallImages>
+    </Command>     
+    <Command Name="cmdSBreakItem1" Symbol="IDS_SBREAK_1" LabelTitle="3 Minutes"></Command>
+    <Command Name="cmdSBreakItem2" Symbol="IDS_SBREAK_2" LabelTitle="4 Minutes"></Command>
+    <Command Name="cmdSBreakItem3" Symbol="IDS_SBREAK_3" LabelTitle="5 Minutes"></Command>
+       
+
+    <Command Name="cmdLongBreak" Symbol="ID_DDG_LongBreak" LabelTitle="Long Break Duration">
+      <Command.SmallImages>
+        <Image Source="Images/Break-lg.png"/>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="cmdLBreakItem1" Symbol="IDS_LBREAK_1" LabelTitle="10 Minutes"></Command>
+    <Command Name="cmdLBreakItem2" Symbol="IDS_LBREAK_2" LabelTitle="15 Minutes"></Command>
+    <Command Name="cmdLBreakItem3" Symbol="IDS_LBREAK_3" LabelTitle="20 Minutes"></Command>
+    <Command Name="cmdLBreakItem4" Symbol="IDS_LBREAK_4" LabelTitle="25 Minutes"></Command>
+    
+    
+  </Application.Commands>
+
+  <Application.Views>
+    <Ribbon>
+      <Ribbon.Tabs>
+        <Tab CommandName="cmdTabMain">
+          <Tab.ScalingPolicy>
+            <ScalingPolicy>
+              <ScalingPolicy.IdealSizes>
+                <!-- This describes the maximum size of each group in tab-->
+                <Scale Group="cmdGroupExit" Size="Large"/>
+                <Scale Group="cmdGroupStart" Size="Large"/>
+                <Scale Group="cmdGroupAbandon" Size="Large"/>
+                <Scale Group="cmdBreaktimeSetting" Size="Large"/>
+              </ScalingPolicy.IdealSizes>
+            </ScalingPolicy>                               
+          </Tab.ScalingPolicy>
+          <Group CommandName="cmdGroupExit" SizeDefinition="OneButton">
+            <Button CommandName="cmdExit" />
+          </Group>
+          <Group CommandName="cmdGroupStart" SizeDefinition="OneButton">
+            <Button CommandName="cmdStart" />
+          </Group>
+          <Group CommandName="cmdGroupAbandon" SizeDefinition="OneButton">
+            <Button CommandName="cmdAbandon" />
+          </Group>
+          <Group CommandName="cmdBreaktimeSetting" >
+            <DropDownGallery CommandName="cmdShortBreak"
+                             Type="Commands"
+                             ItemHeight="32"
+                             ItemWidth="32">
+              <DropDownGallery.MenuLayout>
+                <FlowMenuLayout Rows="2" Columns="3" Gripper="None"/>
+              </DropDownGallery.MenuLayout>
+              <Button CommandName="cmdSBreakItem1"/>
+              <Button CommandName="cmdSBreakItem2"/>
+              <Button CommandName="cmdSBreakItem3"/>             
+            </DropDownGallery>
+
+            <DropDownGallery CommandName="cmdLongBreak"                             
+                             Type="Commands"
+                             ItemHeight="32"
+                             ItemWidth="32">
+              <DropDownGallery.MenuLayout>
+                <FlowMenuLayout Rows="3" Columns="1" Gripper="None"/>
+              </DropDownGallery.MenuLayout>
+              <Button CommandName="cmdLBreakItem1"/>
+              <Button CommandName="cmdLBreakItem2"/>
+              <Button CommandName="cmdLBreakItem3"/>
+              <Button CommandName="cmdLBreakItem4"/>              
+            </DropDownGallery>
+
+           
+            
+          </Group>
+        </Tab>
+      </Ribbon.Tabs>
+    </Ribbon>
+  </Application.Views>
+</Application>
+		
