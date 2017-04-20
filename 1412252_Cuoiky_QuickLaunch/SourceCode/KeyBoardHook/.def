@@ -1,0 +1,4 @@
+LIBRARY KEYBOARDHOOK
+EXPORTS
+	InitKeyBoardHook @1
+	UninstallKeyBoardHook @2
